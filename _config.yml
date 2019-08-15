@@ -31,9 +31,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Maxime Robineau
-subtitle: Étudiant au baccalauréat intégré \n
-\n
-en économie et mathématiques
+subtitle: Étudiant au baccalauréat en économie et mathématiques
 description: >- # this means to ignore newlines until "baseurl:"
   Ceci est mon site web personnel contenant diverses ressources, notamment vers mes notes de cours et des informations sur ma distribution de linux: robi.
 author: Maxime Robineau
