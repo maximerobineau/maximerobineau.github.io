@@ -1,5 +1,5 @@
 ---
-title: Reading List
+title: Ce site web
 subtitle: a list of books I read
 layout: "page"
 icon: fa-book
