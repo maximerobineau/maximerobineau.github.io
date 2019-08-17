@@ -1,6 +1,6 @@
 ---
 title: robi
-icon: fa-check
+icon: fa-terminal
 order: 5
 ---
 
