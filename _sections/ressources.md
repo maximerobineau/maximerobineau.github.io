@@ -1,6 +1,6 @@
 ---
 title: Ressources pour étudiants
-icon: fa-check
+icon: fa-graduation-cap
 order: 4
 ---
 
