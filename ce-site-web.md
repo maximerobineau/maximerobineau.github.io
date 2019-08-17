@@ -1,9 +1,8 @@
 ---
 title: Ce site web
-subtitle: a list of books I read
+subtitle: informations sur ce site web
 layout: "page"
 icon: fa-book
-order: 3
 ---
 
 I love books! Here are some I'm reading now:
