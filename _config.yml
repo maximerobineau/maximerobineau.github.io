@@ -35,7 +35,7 @@ subtitle: Mon site web personnel
 description: >- # this means to ignore newlines until "baseurl:"
   Ceci est mon site web personnel contenant diverses ressources, notamment vers mes notes de cours et des informations sur ma distribution de linux: robi.
 author: Maxime Robineau
-email: maximerobineau208@gmail.com
+email: infos@maximerobineau.com
 avatar: assets/images/photo-bio.jpg
 
 # You'll want to customize url and baseurl for your own site:
