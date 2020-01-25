@@ -15,19 +15,21 @@ Pour voir des exemples de projets scolaires qui démontrent ma rigueur et mon pr
 
 # Computer cluster
 
-J'ai commencé à expérimenter avec deux "Raspberry Pi 3 plus" connectés par réseau (cluster de Beowulf). J'ai réussi à exécuter des codes r et python depuis mon ordinateur et de les faire compiler dans le cluster. Vu l'efficacité observé et le bas coût du système, j'ai voulu augmenter le nombre de processeurs.
+J'ai commencé à expérimenter avec deux "Raspberry Pi 3 plus" connectés par réseau (cluster de Beowulf). J'ai réussi à exécuter des codes r et python depuis mon ordinateur et de les faire compiler dans le cluster. Vu l'efficacité observé et le bas coût du système, j'ai voulu "scale up" le système.
 
 C'est à ce moment que le Raspberry Pi 4 est tombé sur le marché. J'ai donc voulu commander 4 des ces mini-ordinateurs, mais vu leur demande plus élevée en énergie, j'ai du mettre de côté le projet jusqu'à ce qu'un PDU ou un chargeur USB d'au moins 4 ports avec la puissance nécessaire arrive sur le marché.
 
-Entre-temps, l'un des Raspberry Pi 3 plus me sert pour un autre projet et j'utilise l'autre pour tenter d'exécuter des scripts R via mon vim.rc/bash.rc pour avoir un outils rapide et solide.
-
-# L'allégorie de l'appartement
+# robi.community
 
 Il s'agit d'un livre que j'ai commencé à écrire en arrivant à Québec. D'Abord écrit dans Word, j'ai migré le projet en Latex et ai perfectionné la mise en page à maintes reprises.
 
 Le titre du livre vient de l'allégorie de la caverne de Platon. L'ouvrage est de nature politique. Il traite du populisme et de comment les gens se font berner, comme les hommes dans la caverne. Je prends du recul et présente d'où viennent les enjeux principaux de la politique contemporraine.
 
 N'étudiant pas en politique, je fais beaucoup de recherche lié à cet ouvrage et c'est pourquoi il me prend autant de temps à écrire. 
+
+# Le courtier du quartier
+
+a
 
 # Projets futurs
 
