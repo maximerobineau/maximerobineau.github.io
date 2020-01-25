@@ -7,7 +7,7 @@ order: 3
 ---
 # Ce site web
 
-Ce site web est basé sur Jekyll, un projet utilisant Ruby pour façonner des thèmes de site web. Le projet [Prologue](http://jekyllthemes.org/themes/jekyll-theme-prologue/) peut facilement être personnalisé et le code peut être écrit en markdown, facilitant le tout.
+Ce site web est basé sur Jekyll, un projet utilisant Ruby pour façonner des thèmes de site web. Le projet [Prologue](http://jekyllthemes.org/themes/jekyll-theme-prologue/) peut être personnalisé et le code peut être écrit en markdown, facilitant le tout.
 
 # Projets scolaires
 
