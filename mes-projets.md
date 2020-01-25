@@ -21,11 +21,11 @@ C'est à ce moment que le Raspberry Pi 4 est tombé sur le marché. J'ai donc vo
 
 # robi.community
 
-Il s'agit d'un livre que j'ai commencé à écrire en arrivant à Québec. D'Abord écrit dans Word, j'ai migré le projet en Latex et ai perfectionné la mise en page à maintes reprises.
+C'est sur cette adresse que ma distribution robi sera disponible. C'est également l'endroit où les packages intallés par la distribution seront hébergés. 
 
-Le titre du livre vient de l'allégorie de la caverne de Platon. L'ouvrage est de nature politique. Il traite du populisme et de comment les gens se font berner, comme les hommes dans la caverne. Je prends du recul et présente d'où viennent les enjeux principaux de la politique contemporraine.
+De plus, ce site sera contiendra la documentation associée à la distribution grâce à des tutoriels vidéos et un forum. 
 
-N'étudiant pas en politique, je fais beaucoup de recherche lié à cet ouvrage et c'est pourquoi il me prend autant de temps à écrire. 
+De plus, la distribution robi vient pré-installée avec diverses applications shiny, elles pourront être accessibles en ligne sur ce site. 
 
 # Le courtier du quartier
 
@@ -35,7 +35,7 @@ a
 
 Outre mes cours et mon travail, mes priorités pour mes projets personnels vont comme suit:
 
-1. Mettre en place une version stable de robi, idéalement une version avec [bspwm](https://wiki.archlinux.org/index.php/Bspwm) et une version avec [Xfce](https://wiki.archlinux.org/index.php/xfce). Ce projet sera ultimement transporter sur un autre site web qui inclura un interface permettant de choisir quels programmes/environnement de bureau l'utilisateur veut dans sa distribution de linux (similaire à [Ninite](https://ninite.com/)) et il obtiendra un lien de téléchargement vers l'iso de robi personnalisé.
+1. Mettre en place une version stable de robi, idéalement une version avec [bspwm](https://wiki.archlinux.org/index.php/Bspwm) et une version avec [Xfce](https://wiki.archlinux.org/index.php/xfce).
 
 2. Mettre en place un cluster de 4 Raspberry Pi pouvant recevoir des instruction de mon ordinateur portable (idéalement via des scripts de vim.rc ou bash.rc) et mesurer l'efficacité computationnel d'un mini-superordinateur à 16 coeurs/32 threads abordable (moins de 500$ pour l'ensemble de l'équipement).
 
