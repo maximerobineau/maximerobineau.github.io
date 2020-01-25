@@ -31,7 +31,7 @@ Pour pouvoir faire toutes ces choses, le site serait codé en Django, un framewo
 
 # Le courtier du quartier
 
-J'ai conçu le site web [lecourtierduquartier.com](lecourtierduquartier.com) pour un de mes anciens collègues de travail
+J'ai conçu le site web [lecourtierduquartier.com](lecourtierduquartier.com) pour un ancien collègue de travail
 
 # Projets futurs
 
