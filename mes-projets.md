@@ -27,17 +27,19 @@ De plus, ce site sera contiendra la documentation associée à la distribution g
 
 De plus, la distribution robi vient installée avec diverses applications shiny, elles seront aussi accessibles en ligne sur ce site. 
 
+Pour pouvoir faire toutes ces choses, le site serait codé en Django, un framework web de Python. 
+
 # Le courtier du quartier
 
-a
+J'ai conçu le site web [lecourtierduquartier.com](lecourtierduquartier.com) pour un de mes anciens collègues de travail
 
 # Projets futurs
 
 Outre mes cours et mon travail, mes priorités pour mes projets personnels vont comme suit:
 
-1. Mettre en place une version stable de robi, idéalement une version avec [bspwm](https://wiki.archlinux.org/index.php/Bspwm) et une version avec [Xfce](https://wiki.archlinux.org/index.php/xfce).
+1. Mettre en place une version stable de robi, idéalement une version avec [bspwm](https://wiki.archlinux.org/index.php/Bspwm) et une version avec [KDE](https://wiki.archlinux.org/index.php/KDE).
 
-2. Mettre en place un cluster de 4 Raspberry Pi pouvant recevoir des instruction de mon ordinateur portable (idéalement via des scripts de vim.rc ou bash.rc) et mesurer l'efficacité computationnel d'un mini-superordinateur à 16 coeurs/32 threads abordable (moins de 500$ pour l'ensemble de l'équipement).
+2. Mettre en ligne le site robi.community. 
 
 3. Finaliser L'allégorie de l'appartement. Un peu plus d'une centaine de pages sont écrites, mais il me semble en avoir encore tellement à dire. Ce projet est sur la glace, mais je demeure convaincu qu'il sera complété dans quelques années tout au plus.
 
