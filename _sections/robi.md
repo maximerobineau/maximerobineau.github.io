@@ -4,7 +4,7 @@ icon: fa-terminal
 order: 5
 ---
 
-Basée sur Arch Linux, robi (un acronyme pour **robi's outstandingly basic installation**) est une distribution de linux destinée à l'analyse statistique de données. Les avantages des systèmes d'exploitation basés sur Arch Linux sont multiples:  
+Basée sur Arch Linux, robi (un acronyme pour **robi's outstandingly bloated installation**) est une distribution de linux destinée à l'analyse statistique de données. Les avantages des systèmes d'exploitation basés sur Arch Linux sont multiples:  
 
 * Avoir accès à des mises à jour en continu (rolling release);
 * Système minimaliste, faisant en sorte que n'importe quelle machine puisse exécuter les programmes désirés efficacement;
