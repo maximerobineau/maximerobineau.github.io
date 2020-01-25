@@ -21,11 +21,11 @@ C'est à ce moment que le Raspberry Pi 4 est tombé sur le marché. J'ai donc vo
 
 # robi.community
 
-C'est sur cette adresse que ma distribution robi sera disponible. C'est également l'endroit où les packages intallés par la distribution seront hébergés. 
+C'est sur cette adresse que ma distribution robi sera disponible. C'est également l'endroit où les packages installés par la distribution seront hébergés. 
 
 De plus, ce site sera contiendra la documentation associée à la distribution grâce à des tutoriels vidéos et un forum. 
 
-De plus, la distribution robi vient pré-installée avec diverses applications shiny, elles pourront être accessibles en ligne sur ce site. 
+De plus, la distribution robi vient installée avec diverses applications shiny, elles seront aussi accessibles en ligne sur ce site. 
 
 # Le courtier du quartier
 
