@@ -31,7 +31,7 @@ Pour pouvoir faire toutes ces choses, le site serait codé en Django, un framewo
 
 # Le courtier du quartier
 
-J'ai conçu le site web [lecourtierduquartier.com](lecourtierduquartier.com) pour un ancien collègue de travail. Le site a été fait à partir du projet open-source [wordpress.org](wordpress.org) pour être mis en ligne rapidement. Nous travaillons actuellement à migrer le site web vers une architecture permettant de rendre les soumissions en ligne plus efficaces. 
+J'ai conçu le site web [lecourtierduquartier.com](https://lecourtierduquartier.com) pour un ancien collègue de travail. Le site a été fait à partir du projet open-source [wordpress.org](https://wordpress.org) pour être mis en ligne rapidement. Nous travaillons actuellement à migrer le site web vers une architecture permettant de rendre les soumissions en ligne plus efficaces. 
 
 # Projets futurs
 
