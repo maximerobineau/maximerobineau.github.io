@@ -23,14 +23,11 @@ C'est ici qu'arrive robi: un système d'exploitation basé sur Arch Linux avec u
 * Python
 * LibreOffice
 * git
-* chromium
+* sublime
 * vim
-* atom
-* Nodejs
-* electron
+* chromium
 * VirtualBox
-* SAS
 
 et plusieurs autres programmes pour avoir un environnement de travail efficace (gestionnaire de courriel, d'événements, de musique, etc.)
 
-Vous trouverez [ici](https://maximerobineau.com/robi) le lien pour télécharger robi et la documentation appropriée quand le projet sera finalisé (distribution publique prévue pour la fin 2019).
+Vous trouverez [ici](https://maximerobineau.com/robi) le lien pour télécharger robi et la documentation appropriée quand le projet sera finalisé (version stable distribuée au public prévue pour l'été 2020).
