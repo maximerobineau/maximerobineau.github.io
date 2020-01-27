@@ -31,7 +31,7 @@ Pour pouvoir faire toutes ces choses, le site serait codé en Django, un framewo
 
 # Le courtier du quartier
 
-J'ai conçu le site web [lecourtierduquartier](https://lecourtierduquartier.com) pour un ancien collègue de travail. Le site a été fait à partir du projet open-source [wordpress](https://wordpress.org) pour être mis en ligne rapidement. Nous travaillons actuellement à migrer le site web vers une architecture permettant de rendre les soumissions en ligne plus efficaces. 
+J'ai conçu le site web [lecourtierduquartier](https://lecourtierduquartier.ca) pour un ancien collègue de travail. Le site a été fait à partir du projet open-source [wordpress](https://wordpress.org) pour être mis en ligne rapidement. Nous travaillons actuellement à migrer le site web vers une architecture permettant de rendre les soumissions en ligne plus efficaces. 
 
 # Projets futurs
 
@@ -41,6 +41,6 @@ Outre mes cours et mon travail, mes priorités pour mes projets personnels vont 
 
 2. Mettre en ligne le site robi.community. 
 
-3. Mettre à jours le site lecourtierduquartier.com avec la nouvelle architecture de gestion des données. 
+3. Mettre à jours le site lecourtierduquartier.ca avec la nouvelle architecture de gestion des données. 
 
 Vu l'ampleur des projets actuels, je m'abstiens d'en initier d'autres pour l'instant.
