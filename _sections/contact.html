@@ -1,0 +1,21 @@
+---
+title: Contact
+icon: fa-envelope
+order: 6
+---
+
+<p>Vous pouvez me contacter en m'envoyant directement un message en cliquant sur le lien en bas du menu à gauche.
+  Alternativement, vous pouvez composer votre message en utilisant les champs ci-dessous.</p>
+
+<form method="post" action="https://formspree.io/{{ site.email }}">
+  <div class="row">
+    <div class="6u 12u$(mobile)"><input type="text" name="nom" placeholder="Nom" /></div>
+    <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+    <div class="12u$">
+      <textarea name="message" placeholder="Message"></textarea>
+    </div>
+    <div class="12u$">
+      <input type="submit" value="Envoyer" />
+    </div>
+  </div>
+</form>
