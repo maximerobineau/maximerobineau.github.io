@@ -446,9 +446,7 @@ li a:hover {
   .skills-container h3{
     transform: translateX(-10%);
   }
-  .aboutsection{
-    transform: translateX(-17%);
-  }
+
   .aboutsection{
     grid-template-columns: repeat(auto-fit, 100px);
   }
