@@ -197,6 +197,7 @@ li a:hover {
   padding:20px;
 }
 
+
 .main-container{
 	width: 80vw;
   margin: 0 auto;
@@ -384,10 +385,28 @@ li a:hover {
 }
 
 .container h1{
-  text-align: center;
   margin: 0;
   padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+.text-center{
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.5em;
+}
 
+.row {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+.col-contact {
+  display: table-cell;
+  background-color: red; /*Optional*/
 }
 
 @media(max-width:568px){
@@ -460,6 +479,56 @@ li a:hover {
   
 }
 
+@media screen and (max-width: 350px) {
+
+  .skills-container h3{
+    transform: translateX(0);
+  }
+  .aboutsection{
+    display:block;
+    align-content: center;
+    width:80vw;
+    transform: translateX(-20%);
+  }
+
+
+  .abouttext{
+    font-size: max(1.5vw, 20px);
+    line-height: 50px;
+    text-align: center;
+    padding-top: 0;
+    width: 80vw;
+  }
+
+  .skills-container{
+    width: 50vw;
+  }
+
+  .skills-wrapper{
+    transform: translateX(-20%);
+    display: block;
+    width: 80vw;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  
+  .skills-list{
+    color:#121212;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1em;
+    text-align: left;
+    display: inline-block;
+  }
+
+  .skills-list li{
+    width: 160px;
+    padding:15px;
+    
+  }
+  
+}
+
 @media screen and (max-width: 800px) {
 
   .aboutsection{
@@ -468,7 +537,14 @@ li a:hover {
   .aboutpicture{
     width: 100%;
     height:430px;
-    object-fit: fill;
+    object-fit: cover;
 
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .text-center{
+    font-size: 15px;
+    line-height: 1.5em;
   }
 }
