@@ -168,7 +168,7 @@ li a:hover {
 
 .bgcontact{
   background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url('../img/customer-min.jpg');
-  min-height:400px;
+  min-height:800px;
 }
 
 .section{
@@ -381,7 +381,7 @@ li a:hover {
 .container{
   text-align: center;
   color: #fff;
-
+  padding-top: 100px;
 }
 
 .container h1{
@@ -390,10 +390,11 @@ li a:hover {
   padding-bottom: 30px;
   font-size: 50px;
 }
+
 .text-center{
   margin: 0;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 70px;
   font-size: 28px;
   line-height: 1.5em;
 }
@@ -402,11 +403,54 @@ li a:hover {
   display: table;
   width: 100%; /*Optional*/
   table-layout: fixed; /*Optional*/
-  border-spacing: 10px; /*Optional*/
+  border-spacing: 30px; /*Optional*/
 }
 .col-contact {
   display: table-cell;
-  background-color: red; /*Optional*/
+  padding-top: 50px;
+}
+
+.col-contact a{
+  text-decoration: none;
+  font-size: 100px;
+  color: #fff;
+}
+
+.col-contact a:visited{
+  color: #fff;
+}
+
+.text-center a{
+  color: #fff;
+}
+
+.text-center a:visited{
+  color: #fff;
+}
+
+.container .resume{
+  padding: 10px 25px 10px 25px;
+  margin: 5px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.container .resume:focus{
+  box-shadow: none !important;
+}
+
+.container .resume:hover{
+  border:2px solid #000 !important;
+  background: #000 !important;
+  transition: 0.6s;
+}
+
+.container .resume .fa{
+  margin-right: 10px;
 }
 
 @media(max-width:568px){
@@ -457,6 +501,11 @@ li a:hover {
   }
   .aboutsection{
     transform: translateX(-5%);
+  }
+  .col-contact a{
+    text-decoration: none;
+    font-size: 50px;
+    color: #fff;
   }
 }
 
