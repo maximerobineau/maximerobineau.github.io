@@ -91,7 +91,7 @@ h3{
 
 .construction-worker{
     padding-left: 50vw;
-    transform: translateX(-10%);
+    transform: translateX(-100px);
     width: 200px;
 }
 

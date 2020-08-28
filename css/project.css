@@ -1,0 +1,207 @@
+
+/* Scrollbar Firefox-only */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #666 #121212;
+  }
+  
+  /* Scrollbar Chrome/Edge/Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #121212;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 20px;
+    border: 3px solid #666;
+  }
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+.nav li {
+    float: left;
+  }
+  
+.nav li.right {
+    float: right;
+  }
+  
+  .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.nav li a:hover {
+    background-color: #111;
+  }
+  
+.nav .active {
+    background-color: #666;
+  }
+
+  @media screen and (max-width: 650px) {
+    .nav {
+      font-size:min(3.5vw, 16px);
+    }
+
+    .nav li a {
+        padding: 14px 10px;
+    }
+  }
+  
+
+
+
+
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #282e34;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #666;
+    color: #fff;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+
+  .projectimage{
+    width: 100%;
+    padding: 50px 20%;
+}
+
+.aboutimage{
+    width: 100%;
+}
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: #666;
+     padding: 20px;
+     margin-top: 20px;
+     color: #fff;
+  }
+
+  .card h2{
+    font-size: 40px;
+ }
+
+.card h5{
+    font-size: 25px;
+ }
+
+ .card p{
+    font-size: 20px;
+ }
+
+ .card p a{
+    color: #fff;
+ }
+
+ .card p a:visited{
+    color: #fff;
+ }
+
+ .card li{
+    font-size: 20px;
+    line-height: 1.5em;
+ }
+ 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #D3D3D3;
+    margin-top: 20px;
+  }
+
+  .footer a{
+    text-decoration: none;
+    color: #121212;
+  }
+
+  .footer a:visited{
+    text-decoration: none;
+    color: #121212;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+    .header{
+      padding: 20px 0px;
+    }
+    .projectimage{
+        padding: 50px 0px;
+    }
+    .aboutimage{
+        padding: 10px 0px;
+    }
+  }
+
+
+
+
+
+
+
+

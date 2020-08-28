@@ -453,15 +453,352 @@ li a:hover {
   margin-right: 10px;
 }
 
+
+
+
+
+
+
+.supportpage{
+  background-color:#282e34;
+  overflow: hidden;
+}
+
+.support-header{
+  text-align: center;
+  line-height: 2.5em;
+}
+
+.support-header h1{
+  font-size: 50px;
+  color: #fff;
+}
+
+.support-header h3{
+  font-size: max(2vw, 20px);
+  width: max(60vw, 300px);
+  transform: translateX(20vw);
+  color: #D3D3D3;
+}
+
+.supportpage hr{
+  margin-top: 100px;
+  width: 30vw;
+  margin-left: -5px;
+  border:3px solid white;
+  border-radius: 5px;
+}
+
+.support-goodfood h2{
+  padding-top: 10px;
+  font-size: max(40px);
+  color: #fff;
+  padding-left: 30px;
+}
+
+.support-goodfood h3{
+  color: #D3D3D3;
+  padding-left: 30px;
+  padding-top: 10px;
+  line-height: 1.5em;
+  width: 90vw;
+}
+
+.support-goodfood h3 a{
+  color: #D3D3D3;
+}
+
+.support-goodfood h3 a:visited{
+  color: #D3D3D3;
+}
+
+.goodfood-logo{
+  margin-left: 50%;
+  transform: translateX(-285px);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.where-goodfood{
+  width: 100%;
+}
+
+.support-goodfood a{
+font-size: 0;
+}
+
+.collapsible {
+  display: block;
+  width: 100%;
+  background-color: #777;
+  color: #fff;
+  cursor: pointer;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+
+.collapsible input {
+  position: absolute;
+  left: -9999px;
+}
+.collapsible input:focus ~ .collapser {
+  border-color: black;
+}
+.collapsible .symbol {
+  padding: 20px;
+
+  display: inline-block;
+  transform: rotate(90deg);
+  transition: transform 0.25s ease-out;
+}
+.collapsible input:checked ~ .symbol,
+.collapsible input:checked ~ .collapser .symbol {
+  transform: rotate(270deg);
+}
+.collapsible .collapsed {
+  font-size: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+.collapsible input:checked ~ .collapsed {
+  font-size: 20px;
+  opacity: 1;
+  height: auto;
+  padding: 5px 20vw;
+  line-height: 1.2em;
+  width: 60vw;
+  text-align:justify;
+  overflow-wrap: break-word;
+  /* grow, then fade in */
+  transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.5s 0.25s;
+}
+
+
+
+
+
+.support-digitalocean h2{
+  padding-top: 10px;
+  font-size: max(40px);
+  color: #fff;
+  padding-left: 30px;
+}
+
+.support-digitalocean h3{
+  color: #D3D3D3;
+  padding-left: 30px;
+  padding-top: 10px;
+  line-height: 1.5em;
+  width: 90vw;
+}
+
+.support-digitalocean h3 a{
+  color: #D3D3D3;
+}
+
+.support-digitalocean h3 a:visited{
+  color: #D3D3D3;
+}
+
+.digitalocean-logo{
+  margin-left: 50%;
+  transform: translateX(-200px);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 400px;
+}
+
+.support-digitalocean a{
+  font-size: 0;
+}
+
+
+
+
+
+.support-vultr h2{
+  padding-top: 10px;
+  font-size: max(40px);
+  color: #fff;
+  padding-left: 30px;
+}
+
+.support-vultr h3{
+  color: #D3D3D3;
+  padding-left: 30px;
+  padding-top: 10px;
+  line-height: 1.5em;
+  width: 90vw;
+}
+
+.support-vultr h3 a{
+  color: #D3D3D3;
+}
+
+.support-vultr h3 a:visited{
+  color: #D3D3D3;
+}
+
+.vultr-banner{
+  margin-left: 50%;
+  transform: translateX(-400px);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.support-vultr a{
+font-size: 0;
+}
+
+
+
+
+.support-epik h2{
+  padding-top: 10px;
+  font-size: max(40px);
+  color: #fff;
+  padding-left: 30px;
+}
+
+.support-epik h3{
+  color: #D3D3D3;
+  padding-left: 30px;
+  padding-top: 10px;
+  line-height: 1.5em;
+  width: 90vw;
+}
+
+.support-epik h3 a{
+  color: #D3D3D3;
+}
+
+.support-epik h3 a:visited{
+  color: #D3D3D3;
+}
+
+.epik-logo{
+  margin-left: 50%;
+  transform: translateX(-200px);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.support-epik a{
+font-size: 0;
+}
+
+
+
+
+.support-hardware h2{
+  padding-top: 10px;
+  font-size: max(40px);
+  color: #fff;
+  padding-left: 30px;
+  line-height: 1em;
+}
+
+.support-hardware h3{
+  color: #D3D3D3;
+  padding-left: 30px;
+  padding-top: 10px;
+  line-height: 1.5em;
+  width: 90vw;
+}
+
+.support-hardware h3 a{
+  color: #D3D3D3;
+}
+
+.support-hardware h3 a:visited{
+  color: #D3D3D3;
+}
+
+.r710-image{
+  margin-left: 50%;
+  transform: translateX(-200px);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 400px;
+}
+
+.support-hardware a{
+font-size: 0;
+}
+
+
+
+
+.support-onlyfans h2{
+  padding-top: 10px;
+  font-size: max(40px);
+  color: #fff;
+  padding-left: 30px;
+  line-height: 1em;
+}
+
+.support-onlyfans h3{
+  color: #D3D3D3;
+  padding-left: 30px;
+  padding-top: 10px;
+  line-height: 1.5em;
+  width: 90vw;
+}
+
+.support-onlyfans h3 a{
+  color: #D3D3D3;
+}
+
+.support-onlyfans h3 a:visited{
+  color: #D3D3D3;
+}
+
+.onlyfans-logo{
+  margin-left: 50%;
+  transform: translateX(-200px);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 400px;
+}
+
+.support-onlyfans a{
+font-size: 0;
+}
+
+
+
+
+
+
 @media(max-width:568px){
   .bgheader, .bgportfolio, .bgabout, .bgskills, .bgcontact{
     background-attachment:scroll;
+  }
+
+  .collapsible{
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 22px;
+  }
+  .collapsible input:checked ~ .collapsed{
+    width: 90vw;
+    padding: 5px 10px;
+    text-align: left;
   }
 }
 
 @media(max-width:1250px){
   .sectiontext{
     line-height:4vh;
+  }
+  .goodfood-logo{
+    width: 320px;
+    transform: translateX(-160px);
   }
 }
 
@@ -525,6 +862,80 @@ li a:hover {
   .skills-container{
     width: 50vw;
   }
+
+  .support-header h3{
+    width: 100%;
+    transform: translateX(0);
+  }
+
+  .support-goodfood h2{
+    padding-left: 0px;
+  }
+
+  .support-goodfood h3{
+    padding-left: 0px;
+  }
+
+  .support-digitalocean h2{
+    padding-left: 0px;
+  }
+
+  .support-digitalocean h3{
+    padding-left: 0px;
+  }
+
+  .digitalocean-logo{
+    width: 320px;
+    transform: translateX(-160px);
+  }
+
+  .support-vultr h2{
+    padding-left: 0px;
+  }
+
+  .support-vultr h3{
+    padding-left: 0px;
+  }
+
+  .support-epik h2{
+    padding-left: 0px;
+  }
+
+  .support-epik h3{
+    padding-left: 0px;
+  }
+
+  .epik-logo{
+    width: 320px;
+    transform: translateX(-160px);
+  }
+
+  .support-hardware h2{
+    padding-left: 0px;
+  }
+
+  .support-hardware h3{
+    padding-left: 0px;
+  }
+
+  .r710-image{
+    width: 320px;
+    transform: translateX(-160px);
+  }
+
+  .support-onlyfans h2{
+    padding-left: 0px;
+  }
+
+  .support-onlyfans h3{
+    padding-left: 0px;
+  }
+
+  .onlyfans-logo{
+    width: 320px;
+    transform: translateX(-160px);
+  }
+  
   
 }
 
@@ -588,6 +999,10 @@ li a:hover {
     height:430px;
     object-fit: cover;
 
+  }
+  .vultr-banner{
+    width: 320px;
+    transform: translateX(-160px);
   }
 }
 
