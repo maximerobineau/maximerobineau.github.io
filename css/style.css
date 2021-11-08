@@ -658,42 +658,6 @@ font-size: 0;
 
 
 
-.support-epik h2{
-  padding-top: 10px;
-  font-size: max(40px);
-  color: #fff;
-  padding-left: 30px;
-}
-
-.support-epik h3{
-  color: #D3D3D3;
-  padding-left: 30px;
-  padding-top: 10px;
-  line-height: 1.5em;
-  width: 90vw;
-}
-
-.support-epik h3 a{
-  color: #D3D3D3;
-}
-
-.support-epik h3 a:visited{
-  color: #D3D3D3;
-}
-
-.epik-logo{
-  margin-left: 50%;
-  transform: translateX(-200px);
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.support-epik a{
-font-size: 0;
-}
-
-
-
 
 .support-hardware h2{
   padding-top: 10px;
@@ -734,15 +698,15 @@ font-size: 0;
 
 
 
-.support-onlyfans h2{
+.support-monero h2{
   padding-top: 10px;
   font-size: max(40px);
-  color: #fff;
+  color: rgb(7, 6, 6);
   padding-left: 30px;
   line-height: 1em;
 }
 
-.support-onlyfans h3{
+.support-monero h3{
   color: #D3D3D3;
   padding-left: 30px;
   padding-top: 10px;
@@ -750,15 +714,15 @@ font-size: 0;
   width: 90vw;
 }
 
-.support-onlyfans h3 a{
+.support-monero h3 a{
   color: #D3D3D3;
 }
 
-.support-onlyfans h3 a:visited{
+.support-monero h3 a:visited{
   color: #D3D3D3;
 }
 
-.onlyfans-logo{
+.monero-logo{
   margin-left: 50%;
   transform: translateX(-200px);
   margin-top: 50px;
@@ -766,11 +730,48 @@ font-size: 0;
   width: 400px;
 }
 
-.support-onlyfans a{
+.support-monero a{
 font-size: 0;
 }
 
 
+
+
+.support-bitcoin h2{
+  padding-top: 10px;
+  font-size: max(40px);
+  color: #fff;
+  padding-left: 30px;
+  line-height: 1em;
+}
+
+.support-bitcoin h3{
+  color: #D3D3D3;
+  padding-left: 30px;
+  padding-top: 10px;
+  line-height: 1.5em;
+  width: 90vw;
+}
+
+.support-bitcoin h3 a{
+  color: #D3D3D3;
+}
+
+.support-bitcoin h3 a:visited{
+  color: #D3D3D3;
+}
+
+.bitcoin-logo{
+  margin-left: 50%;
+  transform: translateX(-200px);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 400px;
+}
+
+.support-bitcoin a{
+font-size: 0;
+}
 
 
 
@@ -897,18 +898,6 @@ font-size: 0;
     padding-left: 10px;
   }
 
-  .support-epik h2{
-    padding-left: 10px;
-  }
-
-  .support-epik h3{
-    padding-left: 10px;
-  }
-
-  .epik-logo{
-    width: 320px;
-    transform: translateX(-160px);
-  }
 
   .support-hardware h2{
     padding-left: 10px;
@@ -923,15 +912,28 @@ font-size: 0;
     transform: translateX(-160px);
   }
 
-  .support-onlyfans h2{
+  .support-bitcoin h2{
     padding-left: 10px;
   }
 
-  .support-onlyfans h3{
+  .support-bitcoin h3{
     padding-left: 10px;
   }
 
-  .onlyfans-logo{
+  .bitcoin-logo{
+    width: 320px;
+    transform: translateX(-160px);
+  }
+
+  .support-monero h2{
+    padding-left: 10px;
+  }
+
+  .support-monero h3{
+    padding-left: 10px;
+  }
+
+  .monero-logo{
     width: 320px;
     transform: translateX(-160px);
   }
